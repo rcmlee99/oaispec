@@ -1,0 +1,35 @@
+{
+  "name": "feedback-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "widget.js",
+  "scripts": {
+    "install": "napa",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "napa": {
+    "web-design-standards": "18F/web-design-standards#18f-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/18F/feedback-widget.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/18F/feedback-widget/issues"
+  },
+  "homepage": "https://github.com/18F/feedback-widget",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.19.0",
+    "html-loader": "^0.3.0",
+    "napa": "^1.2.0",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2"
+  }
+}
